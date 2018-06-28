@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App__head {
+}
+
+.App__title {
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+.ExampleStuckContent {
+  position: relative;
+  padding: 10px;
+}
+
+.ExampleStuckContent__label {
+  position: absolute;
+  border-radius: 2px;
+  bottom: 5px;
+  right: 5px;
+  background: yellow;
+  padding: 5px;
+}
+
+.ExampleStuckContent--stuck-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: orange;
+  z-index: 1;
+}
+.ExampleStuckContent--stuck-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: yellow;
+  z-index: 1;
+}
+.ExampleStuckContent--stuck-left {
+  outline: 5px solid cyan;
+}
+.ExampleStuckContent--stuck-right {
+  outline: 5px solid salmon;
+}
