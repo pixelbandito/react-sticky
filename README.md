@@ -6,6 +6,8 @@ The main component's src file is in `src/Sticky.jsx`
 
 To use it, use a `<Sticky>` component and pass the sticky header/footer/sidebar's contents as children.
 
+[Live example](https://pixelbandito.github.io/react-sticky/build)
+
 ## Usage
 
 ### `<Sticky sides={{ top?, bottom?, left?, right? }} scrollTarget={elementRef?} >{children}</Sticky>`
